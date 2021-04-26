@@ -1,11 +1,13 @@
-﻿
+﻿using MvvmCross.ViewModels;
+using Pokedex.Core.ViewModels;
+
 namespace Pokedex.Core
 {
-    public class App 
+    public class App : MvxApplication
     {
-        public App()
+        public override void Initialize()
         {
-                
+            this.RegisterAppStart<MainViewModel>();
         }
     }
 }
