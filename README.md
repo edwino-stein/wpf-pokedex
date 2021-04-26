@@ -1,2 +1,2 @@
-# c-shap-pokedex
-Simple pokédex application in C#
+# WPF Pokédex
+Simple pokédex application in WPF and C#
